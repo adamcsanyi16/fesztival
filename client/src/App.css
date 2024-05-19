@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+#kep {
+  width: 40px;
+}
+
+.fooldal {
+  background-image: url("../public/cover.jpg");
+  height: 85vh;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.form-c {
+  display: flex;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: #007fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: auto;
+  width: 700px;
+}
+
+.navbarka {
+  background-color: #74b0ff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  background-color: #00ccff;
+}
